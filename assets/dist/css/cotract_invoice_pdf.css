@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+      /*font-family: 'Roboto', sans-serif;*/
+      .c_sidebar {
+    background: #ccc;
+    padding: 70px 30px;
+      }
+
+      .c_box { font-family: 'Roboto', sans-serif;
+          padding: 30px 0;
+          border-bottom: 1px solid #807e7e;
+      }
+
+      .c_box p { font-size: 12px; 
+          color: #000;
+          font-weight: 500;
+      }
+      .c_box p a {  color: #000; font-weight: 400; }
+
+      .c_box .table>tbody>tr>td, .c_box .table>tbody>tr>th{ border-top:none; padding: 2px;}
+      .noborder{ border:none !important; }
+      .c_main {  padding: 70px 0; font-family: 'Roboto', sans-serif;}
+      .c_main h1 {
+        font-size: 24px;
+        text-align: right;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 40px;
+      }
+      .pr0{ padding-right: 0 ; }
+      .pl0{ padding-left: 0 ; }
+      .w100{ width: 100px; display: inline-block; }
+      .c_main h3 {
+          font-size: 18px;
+          font-weight: 700;
+          margin: 0 0 15px 10px;
+      } 
+      .c_mytable tr:last-child { border-bottom: 1px solid #ddd; }
+      .c_bortb {  border: 1px solid transparent; border-top-color:#ccc; border-bottom-color:#ccc; padding:10px 0 10px 10px; font-size:13px; }
+
+      .c_details p{ text-align: right; }  
+      .c_details p span {
+          float: left;
+          font-weight: 500;
+      } 
+
+      .c_details p span:first-child {
+          width: 75%;
+          text-align: left;
+      }
+
+      .c_desc{ padding: 0 15px; margin: 21px 0; }
+
+      .c_main h4 {float: right; font-size: 21px; font-weight: 600;
+      }
+
+      .c_main h4 span { display: inline-block; min-width: 210px;
+          border-bottom: 1px solid #ccc;
+      }
+
+      .conlogo {width: 240px; display: inline-block;
+      }
+
+      .pdfpage_wrap {
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin: 15px auto;
+    max-width: 1170px;
+}
